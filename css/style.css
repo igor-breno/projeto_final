@@ -17,6 +17,8 @@ img{
   height: auto;
 }
 
+
+
 /* --------------- VARIABLES ----------------*/
 :root{
   --header-height: 4.5rem;
@@ -230,9 +232,15 @@ nav.show div.icon-close{
 }
 
 /* --------------- LOGO ----------------*/
-.logo {
+.logo img{
+  width: 110px;     
+object-fit: cover; 
+}
+
+.logo_texto {
   font: 700 1.31rem 'Poppins', sans-serif;
   color: var(--title-color);
+  margin-left: -300px;
 }
 
 .logo span{
@@ -241,6 +249,12 @@ nav.show div.icon-close{
 
 .logo-alt span{
   color: var(--body-color);
+}
+
+.logo-fooder-texto{
+  font: 700 1.31rem 'Poppins', sans-serif;
+  color: var(--title-color);
+  
 }
 
 /* --------------- HOME ----------------*/
