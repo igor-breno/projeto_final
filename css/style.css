@@ -589,7 +589,7 @@ footer .social a:hover{
   transform: translateY(0);
 }
 
-/* --------------- RESPONSIVO ----------------*/
+/* --------------- RESPONSIVOO ----------------*/
 @media(min-width: 1200px) {
   main{
     margin-top: var(--header-height);
